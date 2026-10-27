@@ -1,0 +1,25 @@
+{
+  "name": "@framework/logging",
+  "version": "0.2.0",
+  "description": "Structured logger provider and context-aware logging backed by @mohamedhabibwork/loggerkit.",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://github.com/mohamedhabibwork/framework-logging#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedhabibwork/framework.git",
+    "directory": "packages/logging"
+  },
+  "bugs": {
+    "url": "https://github.com/mohamedhabibwork/framework/issues"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@framework/core": "workspace:*",
+    "@mohamedhabibwork/loggerkit": "0.2.2",
+    "zod": "4.6.7"
+  }
+}
